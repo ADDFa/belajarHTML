@@ -1,0 +1,23 @@
+.list-element {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 12px;
+    color: rgb(224, 60, 0);
+    transition: color 300ms;
+}
+
+.list-element li:hover a {
+    color: rgb(150, 40, 0);
+}
+
+.element-html img {
+    width: 70%;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.element-html [alt="contoh-element-html"] {
+    width: 40%;
+}
